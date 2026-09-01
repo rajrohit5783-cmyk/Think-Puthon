@@ -63,9 +63,19 @@
 #   i+=1
 
 
-age = int(input("Enter Your Age: "))
+# age = float(input("Enter Your Age: "))
 
-if age >= 18:
-    print("You are eligible for voting")
-else:
-    print("You are not eligible for voting")
+# if age >= 18:
+#     print("You are eligible for voting")
+# else:
+#     print("You are not eligible for voting")
+
+
+# a = float(input("Enter the number: "))
+
+# if a > 0:
+#     print("Number is Positive")
+# elif a < 0:
+#     print("Number is Negative")
+# else:
+#     print("Neither the number is Positive nor Negative")
