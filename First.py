@@ -81,15 +81,23 @@
 #     print("Neither the number is Positive nor Negative")
 
 
-a = 10
-b = 20
-c = 5
+# a = 10
+# b = 20
+# c = 5
 
-if a > b and a>c:
-    print("a is greatest")
-elif b>a and b>c:
-    print("b is greatest")
-else:
-    print("C is greatest")
+# if a > b and a>c:
+#     print("a is greatest")
+# elif b>a and b>c:
+#     print("b is greatest")
+# else:
+#     print("C is greatest")
+
+def greet():
+    print("Good Night Rohit")
+
+greet()
+greet()
+greet()
+
 
 
