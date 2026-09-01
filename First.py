@@ -49,11 +49,11 @@
 # #    print(A , "X" , b , "=" , A * b)
 # #    b+=1
 
-S = 0
-i = 1
-# for i in range(1,21):
-#     S= S+i
-#     print(S)
+# S = 0
+# i = 1
+# # for i in range(1,21):
+# #     S= S+i
+# #     print(S)
     
     
 
@@ -63,3 +63,9 @@ i = 1
 #   i+=1
 
 
+age = int(input("Enter Your Age: "))
+
+if age >= 18:
+    print("You are eligible for voting")
+else:
+    print("You are not eligible for voting")

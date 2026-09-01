@@ -31,7 +31,7 @@ while i <= n:
     factorial = factorial * i
     i=i+1
 
-print("Factorial =", factorial)
+print("factorial =", factorial)
 
 
 #no of digits in a number
