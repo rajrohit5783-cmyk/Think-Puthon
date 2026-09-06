@@ -162,12 +162,21 @@
 # print(mul())
 
 
-def par():
+# def par():
     
-    def chi():
-        print("Inside the fn")
+#     def chi():
+#         print("Inside the fn")
         
-    chi()
+#     chi()
 
-par()
+# par()
+
+
+def greet():
+    return "Good morning"
+
+def dis_gr(function):
+    print(function)
+    
+dis_gr(greet())
         
