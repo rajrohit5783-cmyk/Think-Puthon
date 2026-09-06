@@ -132,8 +132,14 @@
 # print(userName)
 
 
-output = lambda a,b,c : a + b + c
-print(output(3, 4, 5))
+# output = lambda a,b,c : a + b + c
+# print(output(3, 4, 5))
 
-B = lambda name: name.upper()
-print(B("rohit"))
+# B = lambda name: name.upper()
+# print(B("rohit"))
+
+name = input("Enter Your Name: ")
+age = int(input("Enter Your age: "))
+
+print("My name is ", name ,"and age is ", age)
+
