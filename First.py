@@ -113,7 +113,13 @@ printname()
 
 def squarenumber(a):
     return a*a
-squarenumber(3)
+result = squarenumber(3)
+
+new_result = result - 2
+
+print(new_result)
+
+print(result)
 
 
 
