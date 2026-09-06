@@ -138,8 +138,14 @@
 # B = lambda name: name.upper()
 # print(B("rohit"))
 
-name = input("Enter Your Name: ")
-age = int(input("Enter Your age: "))
+def printName(name,age):
+    return f"My name is {name}, and my age is {age}"
 
-# print("My name is ", name ,"and age is ", age)
-print(f"My name is {name}, and my age is {age}")
+print(printName("rohit","20"))
+# print(f"My name is {printName('Rohit')}")
+
+# name = input("Enter Your Name: ")
+# age = int(input("Enter Your age: "))
+
+# # print("My name is ", name ,"and age is ", age)
+# print(f"My name is {name}, and my age is {age}")
