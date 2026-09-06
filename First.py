@@ -134,3 +134,6 @@
 
 output = lambda a,b,c : a + b + c
 print(output(3, 4, 5))
+
+B = lambda name: name.upper()
+print(B("rohit"))
