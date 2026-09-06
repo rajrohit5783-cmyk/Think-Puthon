@@ -123,10 +123,14 @@
 
 
 
-def getName():
-   name =  input("Enter your name: ")
-   return name
+# def getName():
+#    name =  input("Enter your name: ")
+#    return name
 
-userName = getName()
-print(userName.upper())
-print(userName)
+# userName = getName()
+# print(userName.upper())
+# print(userName)
+
+
+output = lambda a,b,c : a + b + c
+print(output(3, 4, 5))
