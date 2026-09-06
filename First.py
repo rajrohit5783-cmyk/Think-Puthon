@@ -105,21 +105,28 @@
 
 # greet("XYZ")
 
-def printname():
-    print("Hello world")
+# def printname():
+#     print("Hello world")
    
-printname() 
+# printname() 
 
 
-def squarenumber(a):
-    return a*a
-result = squarenumber(3)
+# def squarenumber(a):
+#     return a*a
+# result = squarenumber(3)
 
-new_result = result - 2
+# new_result = result - 2
 
-print(new_result)
+# print(new_result)
 
-print(result)
+# print(result)
 
 
 
+def getName():
+   name =  input("Enter your name: ")
+   return name
+
+userName = getName()
+print(userName.upper())
+print(userName)
