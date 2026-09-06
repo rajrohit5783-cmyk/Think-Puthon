@@ -21,7 +21,7 @@
 # # # # # # print(E)
 # # # # # # print(type(E))
 # # # # # for a in range(5,16):
-# # # # #     print(a)
+    # print(a)
 
 # # # # a = 15
 # # # # while(a<=30):
@@ -138,10 +138,10 @@
 # B = lambda name: name.upper()
 # print(B("rohit"))
 
-def printName(name,age):
-    return f"My name is {name}, and my age is {age}"
+# def printName(name,age):
+#     return f"My name is {name}, and my age is {age}"
 
-print(printName("rohit","20"))
+# print(printName("rohit","20"))
 # print(f"My name is {printName('Rohit')}")
 
 # name = input("Enter Your Name: ")
@@ -149,3 +149,25 @@ print(printName("rohit","20"))
 
 # # print("My name is ", name ,"and age is ", age)
 # print(f"My name is {name}, and my age is {age}")
+
+
+# def add(a,b):
+#     return a+b
+
+# a = add(2,3)
+
+# def mul():
+#     return a * 2
+
+# print(mul())
+
+
+def par():
+    
+    def chi():
+        print("Inside the fn")
+        
+    chi()
+
+par()
+        
