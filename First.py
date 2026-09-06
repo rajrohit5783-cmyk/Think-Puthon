@@ -92,12 +92,28 @@
 # else:
 #     print("C is greatest")
 
-def greet():
-    print("Good Night Rohit")
+# def greet():
+#     print("Good Night Rohit")
 
-greet()
-greet()
-greet()
+# greet()
+# greet()
+# greet()
+
+
+# def greet(Name):
+#     print("Good Morning " +  Name)
+
+# greet("XYZ")
+
+def printname():
+    print("Hello world")
+   
+printname() 
+
+
+def squarenumber(a):
+    return a*a
+squarenumber(3)
 
 
 
