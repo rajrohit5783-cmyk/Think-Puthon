@@ -141,5 +141,5 @@
 name = input("Enter Your Name: ")
 age = int(input("Enter Your age: "))
 
-print("My name is ", name ,"and age is ", age)
-
+# print("My name is ", name ,"and age is ", age)
+print(f"My name is {name}, and my age is {age}")
