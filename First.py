@@ -172,11 +172,23 @@
 # par()
 
 
-def greet():
-    return "Good morning"
+# def greet():
+#     return "Good morning"
 
-def dis_gr(function):
-    print(function)
+# def dis_gr(function):
+#     print(function)
     
-dis_gr(greet())
-        
+# dis_gr(greet())
+
+
+name = ["Rohit" , "Mihika" , "Ansh" , 23.89 , 8 , True ]
+print(name)
+
+print(name[3])
+print(name[-2])
+print(type(name[5]))
+
+print(name[-4:-1])
+
+name.append(False)
+print(name)
