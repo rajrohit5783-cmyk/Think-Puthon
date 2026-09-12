@@ -192,3 +192,16 @@ print(name[-4:-1])
 
 name.append(False)
 print(name)
+
+name.insert(3,"Abhinav")
+print(name)
+
+
+Marks =[]
+A= int(input("Enter Your marks: "))
+# Marks.append(A)
+Marks.insert(2,A)
+print(Marks)
+
+print(Marks[0])
+
