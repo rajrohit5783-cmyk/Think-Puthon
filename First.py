@@ -196,12 +196,23 @@ print(name)
 name.insert(3,"Abhinav")
 print(name)
 
-
+n = 0
 Marks =[]
-A= int(input("Enter Your marks: "))
-# Marks.append(A)
-Marks.insert(2,A)
-print(Marks)
+# A= int(input("Enter Your marks: "))
+# # Marks.append(A)
+# Marks.insert(2,A)
+# print(Marks)
 
-print(Marks[0])
+# print(Marks[0])
 
+# while(n<=5):
+#     A= int(input("Enter Your marks: "))
+#     B= int(input("Enter the index "))
+#     Marks.insert(B,A)
+#     n+=1
+# print(Marks)
+# print(type(Marks))
+
+name1 = ["Rohit" , "Mihika" , "Ansh" , 23 , 8 ]
+name1[-1:-2] = 2
+print(name1)
